@@ -1,0 +1,89 @@
+.price {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.price .content .box {
+  width: 33%;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+/* content flex mt-[30px] ml-[100px] mr-[100px]*/
+/* .pra{
+  
+
+  margin-top: 37px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+  
+  
+} */
+
+.price button {
+  margin-bottom: 20px;
+}
+.price .box:nth-child(1) .topbtn button,
+.price .box:nth-child(3) .topbtn button {
+  display: none;
+}
+.price h3 {
+  font-size: 22px;
+}
+.price h1 {
+  font-size: 60px;
+}
+.price h1 span {
+  font-size: 30px;
+  font-weight: 500;
+}
+.price ul {
+  margin-top: 40px;
+}
+.price ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+.price label {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.price .btn5 {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .price .content {
+    flex-direction: column;
+  }
+
+  .price {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+  .price .content .box {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+
+  .price .btn5 {
+    width: 100%;
+    /* height: 20px; */
+    /* text-align: center; */
+    padding: 2px;
+    
+    
+  }
+}
