@@ -19,7 +19,7 @@ const RecentCard = ({val}) => {
   const removeFromCart=()=>{
     console.log("remove")
     dispatch(remove(val.id))
-    alert("Are you really wnat to remove Property?")
+    alert("Are you really want to remove Property?")
 
   }
 

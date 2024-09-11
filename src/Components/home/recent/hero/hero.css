@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
+  background-image: url("/images/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -154,28 +154,7 @@ form h4 {
     padding: 0px;
 
   }
-  /* form input {
-    width: 100%;
-    
-  } */
-
-  /* form h4 { */
-    /* font-weight: 100; */
-    /* border: 1px solid rgba(128, 128, 128, 0.2);
-    font-size: 14px;
-    color: grey;
-    margin-top: 22px;
-    border-radius: 5px;
-    height: 48px;
-    width: 190px; */
-  /* } */
-
-  /* .flexx{
-    margin: 0px;
-    padding: 0px;
-    /* margin-bottom: 100px; */
-  /* } */ */
-
+  
   .btnj{
     width: 80%;
     margin: 0px;
