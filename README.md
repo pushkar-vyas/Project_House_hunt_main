@@ -1,4 +1,4 @@
-Live link 👉 "https://project-house-hunt.vercel.app/"
+Live link 👉 "https://project-house-hunt-main.vercel.app/"
 
 # React + Vite
 

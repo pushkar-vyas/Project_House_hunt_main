@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-// import "./header.css"
-import './newheader.css'
+import "./header.css"
+
 import { nav } from "../../data/Data"
 import { Link, NavLink, Routes ,Route} from "react-router-dom"
 import Card from "../../card/Card"

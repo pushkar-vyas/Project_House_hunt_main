@@ -25,9 +25,7 @@
     height: 30px;
     text-align: center;
     background-color: green;
-    /* padding-top: 10px; */
-    /* padding-bottom: -5px; */
-    /* font-size: 10px; */
+    
 }
 
 .extra{
@@ -49,17 +47,12 @@
         padding: 0px;
         margin-top: 40px;
         margin-left: 100px;
-        /* text-align: center; */
-        /* margin-left: 0px; */
-        /* width: 200px; */
+        
         
     }
     .signup_box form{
         justify-content: start;
-        /* align-items: start; */
        
-        /* margin: 0px; */
-        /* width: 300px; */
         
         
        
@@ -68,8 +61,7 @@
         /* margin-left: 50%; */
         text-align: start;
         align-items: center;
-        /* text-align: center; */
-        /* margin-right: 200px; */
+        
     
     }
 

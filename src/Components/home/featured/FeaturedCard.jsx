@@ -4,7 +4,7 @@ import { featured } from "../../data/Data"
 const FeaturedCard = () => {
   return (
     <>
-      <div className='content grid5 mt-[50px] gap-[30px] ml-[100px] mr-[100px] md: grid2 ml-[8px] gap-[10px] mr-[15px]'>
+      <div className='feat'>
         {featured.map((items, index) => (
           <div className='box' key={index}>
             <img src={items.cover} alt='' />

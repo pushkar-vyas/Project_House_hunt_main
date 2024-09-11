@@ -8,7 +8,7 @@ const Carditem = ({item,index}) => {
 
     function removeFromCart(){
         dispatch(remove(item.id))
-        alert("item removed from cart")
+        alert("Are you really want to remove Property ?")
       }
 
   return (
