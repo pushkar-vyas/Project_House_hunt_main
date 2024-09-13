@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import './Login.css'
+import { NavLink } from 'react-router-dom';
 
 const Login = ({setisLogin}) => {
     let navi = useNavigate();
@@ -44,6 +45,12 @@ const Login = ({setisLogin}) => {
                   <br />
                   <input type='password' name='lpassword' id='lpassword' placeholder='enter password' value={logindata.lpassword} onChange={loginfun} required></input>
                   <br />
+                  <div className='extra'><p>if you don't have account</p> 
+        <NavLink to ='/sign_up'>
+            <span>Sign-in</span>
+        </NavLink>
+        </div>
+
                   <button>Login In</button>
                 </form>
               </div>

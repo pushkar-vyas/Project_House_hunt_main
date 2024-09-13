@@ -6,6 +6,7 @@ import { Link, NavLink, Routes ,Route} from "react-router-dom"
 import Card from "../../card/Card"
 // import { isHtmlElement } from "react-router-dom/dist/dom"
 import  {useSelector} from "react-redux"
+import { IoCartOutline } from "react-icons/io5";
 
 const Header = ({isLogin,setisLogin}) => {
   const [navList, setNavList] = useState(false)

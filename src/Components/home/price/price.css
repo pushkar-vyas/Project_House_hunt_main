@@ -46,6 +46,9 @@
 
 .price .btn5 {
   width: 100%;
+  
+  font-size: 10px;
+  font-weight: bolder;
 }
 @media screen and (max-width: 800px) {
   .price .content {

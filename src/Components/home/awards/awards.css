@@ -13,8 +13,8 @@
 .awards .heading {
   display: flex;
   flex-direction: column-reverse;
-  margin-left: 280px;
-  margin-right: 305px;
+  /* margin-left: 280px; */
+  /* margin-right: 305px; */
   
 }
 .awards .heading p {

@@ -1,7 +1,10 @@
 .footerContact {
+  
   background-color: #27ae60;
   padding: 40px 0;
   color: #fff;
+
+  /* margin-right: 0%; */
 }
 .footerContact h1 {
   font-size: 35px;
@@ -23,16 +26,18 @@
 }
 
 .btn5{
-  margin-top: 5px;
-  height: 10%;
-  align-items: center;
+  margin-top: 0px;
+  /* height: 10%; */
+  /* font-size: sm/aller; */
+  /* align-items: center; */
   /* width: 40%; */
 }
 footer {
   background-color: #1d2636;
   padding: 50px 0;
   color: #fff;
-  padding-right: 70px;
+  padding-right: 120px;
+  /* margin-right: 20%; */
 }
 footer .container {
   margin-left: 100px;
@@ -58,6 +63,10 @@ footer input {
   width: 70%;
   height: 50px;
   border-radius: 5px;
+}
+footer .tag{
+  /* margin-right: 40px; */
+  /* padding-right: 40px; */
 }
 footer h3 {
   font-weight: 400;

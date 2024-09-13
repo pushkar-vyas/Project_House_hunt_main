@@ -1,4 +1,7 @@
-header {
+header  {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
   background-color: #fff;
   height: auto;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
@@ -6,15 +9,25 @@ header {
   position: sticky;
   top: 0;
   z-index: 99999;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
+  /* padding-right: 40px; */
 }
+
+
+
 header img {
+  /* margin-left: 20px; */
   width: 120px;
+  /* width: 25%; */
+  /* padding-right: 5%; */
 }
 header a {
-  margin-left: 30px;
+  
+  
+  padding-left: 30px;
   transition: 0.5s;
   font-weight: 500;
+  /* gap: 30px; */
   
 }
 header a:hover {
@@ -40,13 +53,30 @@ header .toggle {
 .lastsec{
   display: flex;
   justify-content: space-between;
-  width: auto;
+  /* width: auto; */
   /* gap: 2px; */
-  margin-left: 150px;
+  /* margin-left: 1px; */
 }
 
 .mylist{
-  margin-bottom: 20px;
+  padding-bottom: 23px;
+  /* margin-left: 1px; */
+  padding-left: 20px;
+  /* font-size: 100%; */
+}
+.mylist a{
+  color:green;
+  /* margin-top: 10px; */
+  /* background-color: #27ae60; */
+
+  /* padding-left: 20px; */
+  /* margin-left: 20px; */
+  /* background-color: green; */
+  /* border:2px solid #27ae60; */
+  /* font-weight: bolder; */
+  /* width: 50px; */
+  
+
 }
 
 .sign-button{
@@ -103,5 +133,7 @@ header .toggle {
       margin-left: -70px;
       margin-top: -20px;
   }
-  
+  .mylist {
+    padding-left: 0px;
+  }
 }
